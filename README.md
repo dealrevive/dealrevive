@@ -1,4 +1,164 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DealRevive.com - Turn Wasted Leads into Hot Jobs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        .gradient-button {
+            background-image: linear-gradient(to right, #4CAF50 0%, #2196F3 100%);
+            transition: all 0.3s ease;
+        }
+        .gradient-button:hover {
+            background-position: right center; /* Move gradient on hover */
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        /* Custom styles for Calendly embed container */
+        .calendly-container {
+            max-width: 800px; /* Max width for the embed */
+            margin: 0 auto; /* Center the embed */
+            background-color: #ffffff; /* White background for the embed area */
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <nav class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">DealRevive.com</a>
+            <a href="#cta" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Get Started</a>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-r from-blue-600 to-green-500 text-white py-20 md:py-32 text-center rounded-b-3xl shadow-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">
+                You Handle the Work. We Revive Your Wasted Leads.
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up">
+                Stop leaving money on the table. Turn Cold Contacts into Hot Jobs — Without Lifting a Finger.
+            </p>
+            <a href="#cta" class="gradient-button text-white font-semibold text-lg px-10 py-4 rounded-full shadow-lg hover:scale-105 transition transform duration-300">
+                Book a Free Lead Review Call
+            </a>
+        </div>
+    </header>
+
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Here’s How It Works:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition duration-300">
+                    <div class="text-5xl font-extrabold text-blue-500 mb-4">1</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">You Hand Over the Mess (No Tech Required)</h3>
+                    <p class="text-gray-600">
+                        Old spreadsheets, forgotten CRM entries, even stacks of paper estimates—we'll take whatever you've got. We make it simple to share your leads, no matter how disorganized.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition duration-300">
+                    <div class="text-5xl font-extrabold text-green-500 mb-4">2</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">We Call, Qualify, and Schedule for You</h3>
+                    <p class="text-gray-600">
+                        Our expert callers re-engage your past prospects, filter out the tire-kickers, and book <span class="font-semibold">qualified estimates directly onto your calendar</span>.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition duration-300">
+                    <div class="text-5xl font-extrabold text-purple-500 mb-4">3</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">You Close the Job. We Get Paid (Only When You Do)</h3>
+                    <p class="text-gray-600">
+                        If they say "yes" and you complete the work, we get 15-30% of the final ticket. <span class="font-semibold">No close? No cost. No hidden fees.</span> Just revenue from leads you already paid for.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-900">Who We Help:</h2>
+            <div class="flex flex-wrap justify-center gap-4 md:gap-8">
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-blue-700">Plumbers</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-green-700">Electricians</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-purple-700">Roofers</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-red-700">Handymen</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-indigo-700">Landscapers</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-yellow-700">Painters</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-teal-700">HVAC Techs</span>
+                <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-gray-700">Any contractor sitting on a pile of untapped past leads!</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Why It Works for You:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <p class="text-lg font-medium text-gray-700">Zero Upfront Cost</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <p class="text-lg font-medium text-gray-700">Pure Performance-Based Pay</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <p class="text-lg font-medium text-gray-700">Time Savings for You</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <p class="text-lg font-medium text-gray-700">Maximize Past Marketing ROI</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <p class="text-lg font-medium text-gray-700">No BS, Just Real Jobs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="bg-gray-800 text-white py-16 md:py-24 text-center rounded-t-3xl shadow-lg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Ready to Revive Your Deals?</h2>
+            <p class="text-xl md:text-2xl mb-10 opacity-90">
+                Let's uncover the hidden revenue in your old leads. Book your free lead review call below!
+            </p>
+
+            <div class="calendly-container">
+                <div class="calendly-inline-widget" data-url="https://calendly.com/dealrevive" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+            </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 DealRevive.com. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
 
 <!--
 **dealrevive/dealrevive** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
