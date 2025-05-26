@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DealRevive.com - Window & Door Revenue Revival</title>
+    <title>DealRevive.com - Jacksonville Window & Door Revenue Revival</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -15,24 +15,38 @@
             background-color: #f8fafc; /* Light gray background */
         }
         .gradient-button {
-            /* Changed colors to reflect a more professional, home improvement feel */
-            background-image: linear-gradient(to right, #2563EB 0%, #3B82F6 100%); /* Stronger blues for reliability */
+            background-image: linear-gradient(to right, #2563EB 0%, #3B82F6 100%);
             transition: all 0.3s ease;
-            background-size: 200% auto; /* For hover effect */
+            background-size: 200% auto;
         }
         .gradient-button:hover {
-            background-position: right center; /* Move gradient on hover */
+            background-position: right center;
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
-        /* Custom styles for Calendly embed container */
         .calendly-container {
-            max-width: 800px; /* Max width for the embed */
-            margin: 0 auto; /* Center the embed */
-            background-color: #ffffff; /* White background for the embed area */
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
             padding: 2rem;
             border-radius: 1rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Hero Section Specific Styles */
+        .hero-background {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            /* Optional: Add a subtle overlay for text readability */
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('YOUR_JACKSONVILLE_IMAGE_URL_HERE.jpg');
+            /* IMPORTANT: Replace 'YOUR_JACKSONVILLE_IMAGE_URL_HERE.jpg' with your actual image URL */
+        }
+        /* Ensure text is above the overlay */
+        .hero-content {
+            position: relative;
+            z-index: 10; /* Ensures content is above the background and overlay */
         }
     </style>
 </head>
@@ -41,7 +55,7 @@
     <nav class="bg-white shadow-sm py-4 sticky top-0 z-50">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <a href="#home" class="rounded-md p-1 hover:bg-gray-50 transition-colors">
-                <img src="logo.png" alt="Deal Revive Logo" class="h-16 w-auto">
+                <img src="new_dealrevive_logo.png" alt="Deal Revive Logo" class="h-16 w-auto">
             </a>
 
             <ul class="hidden md:flex space-x-8">
@@ -84,15 +98,16 @@
         </div>
     </nav>
 
-    <header id="home" class="bg-gradient-to-r from-blue-700 to-indigo-600 text-white py-20 md:py-32 text-center rounded-b-3xl shadow-lg">
-        <div class="container mx-auto px-4">
+    <header id="home" class="hero-background text-white py-20 md:py-32 text-center rounded-b-3xl shadow-lg">
+        <div class="container mx-auto px-4 hero-content">
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">
-                Unlock Jacksonville's Hidden Revenue:<br> Your Lost Window & Door Estimates,  <span style="color:#red;">Reborn</span> 
+                Unlock Jacksonville's Hidden Revenue: <br> <span style="color:#FFF;">Your Lost Window & Door Estimates, Reborn.</span>
             </h1>
             <p class="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up">
-"We specialize in reactivating dormant window and door estimates, turning forgotten leads into new, qualified appointments for Jacksonville's leading home improvement companies. You only pay for results            </p>
+                We specialize in reactivating unclosed window & door estimates, turning forgotten leads into new, qualified appointments for Jacksonville's leading home improvement companies. **You only pay for results.**
+            </p>
             <a href="#cta" class="gradient-button text-white font-semibold text-lg px-10 py-4 rounded-full shadow-lg hover:scale-105 transition transform duration-300">
-                Book Your Free Revenue Recovery Audit
+                Book Your Free 15-Min Revenue Recovery Call
             </a>
         </div>
     </header>
@@ -105,27 +120,27 @@
                      class="h-48 w-auto rounded-lg shadow-xl opacity-90">
             </div>
 
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Here’s How It Works:</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">How DealRevive Turns Jacksonville's Cold Leads into Warm Sales:</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-gray-50 p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition duration-300">
                     <div class="text-5xl font-extrabold text-blue-600 mb-4">1</div>
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">You Share Your Dormant Leads</h3>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Your Dormant Estimates</h3>
                     <p class="text-gray-600">
-                        Provide us with lists of unclosed window & door estimates or past quotes. No complex tech needed—simple spreadsheets are fine.
+                        You provide us with your past unclosed window and door quotes from the Jacksonville area – the ones you've already invested time and money in, but which went quiet.
                     </p>
                 </div>
                 <div class="bg-gray-50 p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition duration-300">
                     <div class="text-5xl font-extrabold text-green-600 mb-4">2</div>
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">We Re-Engage, Qualify & Book</h3>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Strategic Reactivation</h3>
                     <p class="text-gray-600">
-                        Our skilled team contacts these prospects, reminds them of their window/door project, addresses concerns, and schedules **qualified appointments** directly onto your calendar.
+                        Our team of expert communicators, leveraging proven scripts and high-touch campaigns, re-engages these specific Jacksonville homeowners. We understand their needs and address common reasons for delay specific to Florida (e.g., hurricane season planning, energy efficiency concerns).
                     </p>
                 </div>
                 <div class="bg-gray-50 p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition duration-300">
                     <div class="text-5xl font-extrabold text-purple-600 mb-4">3</div>
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">You Close the Job. We Get Paid Per Appointment.</h3>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Qualified Appointments Delivered</h3>
                     <p class="text-gray-600 mb-6">
-                        You handle the in-home estimate or consultation. We charge a flat fee **per qualified appointment booked directly onto your calendar.**
+                        We re-qualify their interest and schedule new, solid appointments directly onto your sales team's calendar. No tire-kickers – just genuinely interested prospects.
                     </p>
 
                     <div class="bg-white p-6 rounded-lg shadow-md border border-indigo-300">
@@ -144,7 +159,7 @@
 
     <section id="who-we-help" class="py-16 md:py-24 bg-gray-100">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-900">Who We Help: Window & Door Replacement Companies</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-900">Who We Help: Jacksonville's Window & Door Replacement Companies</h2>
             <div class="flex flex-wrap justify-center gap-4 md:gap-8">
                 <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-blue-700">Residential Window Installers</span>
                 <span class="bg-white px-6 py-3 rounded-full shadow-md text-lg font-medium text-green-700">Exterior Door Specialists</span>
@@ -157,19 +172,19 @@
 
     <section id="why-it-works" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Why DealRevive Works for Your Window & Door Business:</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">The DealRevive Difference for Jacksonville Window & Door Contractors:</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
                     <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                     </svg>
-                    <p class="text-lg font-medium text-gray-700">Cost-Effective: Pay Only Per Booked Appointment</p>
+                    <p class="text-lg font-medium text-gray-700">Jacksonville-Specific Expertise: We understand your local market.</p>
                 </div>
                 <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
                     <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                     </svg>
-                    <p class="text-lg font-medium text-gray-700">Time-Saving: Focus on Sales, Not Chasing Leads</p>
+                    <p class="text-lg font-medium text-gray-700">Zero Upfront Risk: Pay Only Per Booked Appointment</p>
                 </div>
                 <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
                     <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
@@ -244,7 +259,7 @@
 
     <section id="cta" class="bg-gray-800 text-white py-16 md:py-24 text-center rounded-t-3xl shadow-lg">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-5xl font-bold mb-6">Ready to Revive Your Window & Door Opportunities?</h2>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Ready to Revive Your Jacksonville Window & Door Opportunities?</h2>
             <p class="text-xl md:text-2xl mb-10 opacity-90">
                 Let's uncover the hidden revenue in your unclosed window & door estimates. Book your free Revenue Recovery Audit below!
             </p>
