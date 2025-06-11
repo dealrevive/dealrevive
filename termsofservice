@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal Revive - Simple Terms of Service</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+        /* Custom styling for list items to ensure consistent bullet points */
+        ul {
+            list-style-type: disc; /* Ensure disc bullets */
+            padding-left: 1.5rem; /* Add padding for readability */
+        }
+        ul ul {
+            list-style-type: circle; /* Sub-lists get circle bullets */
+            padding-left: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto p-6 md:p-10 lg:p-16 max-w-4xl bg-white shadow-lg rounded-lg my-8">
+
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">Simple Terms of Service for Deal Revive</h1>
+
+        <p class="text-gray-600 mb-8">
+            **Effective Date:** June 11, 2025
+        </p>
+
+        <p class="mb-6">
+            Welcome to Deal Revive! These simple terms explain how we work together when you use our services. By choosing Deal Revive, you agree to these terms. If you don't agree, please don't use our services.
+        </p>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">1. What Deal Revive Does</h2>
+        <p class="mb-4">
+            We help contractors boost their sales and online presence. Our main services are:
+        </p>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-2">
+                <strong class="font-semibold">Quote Revival & Lead Conversion:</strong> We help you turn old project quotes into actual deals. We'll work on strategies, follow-ups, and communication.
+                <ul class="list-circle ml-6 mt-2">
+                    <li class="mb-1">
+                        <strong class="font-semibold">Important:</strong> We can't promise specific results (like how many quotes will close). Success depends on many things, like your original leads and market conditions. We're here to give you the best chance at success.
+                    </li>
+                </ul>
+            </li>
+            <li class="mb-2">
+                <strong class="font-semibold">One-Time Website Builds:</strong> We design and build professional websites for you. This is a single fee for the build, not ongoing monthly charges from us.
+                <ul class="list-circle ml-6 mt-2">
+                    <li class="mb-1">
+                        <strong class="font-semibold">Heads Up:</strong> You'll be responsible for buying and paying for your website's domain name (like `yourcompany.com`) and its hosting (where the website lives online). You'll also need to provide all the text, pictures, and other content for your site. Our fee doesn't cover ongoing maintenance or updates after the site is launched, unless we agree on a separate plan for that.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">2. How We Work Together</h2>
+        <p class="mb-4">
+            To make things run smoothly, we ask you to:
+        </p>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-1">Provide us with all the information and materials we need in a timely manner.</li>
+            <li class="mb-1">Cooperate with us professionally and respond promptly to our requests.</li>
+            <li class="mb-1">Approve our work (like website designs) without undue delay.</li>
+            <li class="mb-1">Pay for any extra costs from third parties (like specific software, stock photos, or advertising fees), if they're not already part of our agreement.</li>
+            <li class="mb-1">For Quote Revival, give us access to your customer data and communication tools.</li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">3. Payments</h2>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-1"><strong class="font-semibold">Fees:</strong> All costs for our services will be clearly explained in a separate agreement or proposal we provide you.</li>
+            <li class="mb-1"><strong class="font-semibold">Payment Schedule:</strong> We'll tell you when payments are due in your proposal. For websites, we usually ask for a deposit upfront, with the rest due when the site is finished and ready.</li>
+            <li class="mb-1"><strong class="font-semibold">Late Payments:</strong> If payments are late, we might add a small late fee (details will be in your agreement). We may also pause or stop working until payments are up to date.</li>
+            <li class="mb-1"><strong class="font-semibold">Refunds:</strong> Because our services involve custom work, <strong class="font-semibold">payments are generally non-refundable.</strong> Any exceptions will be specifically written in your service agreement.</li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">4. Your Stuff & Our Tools (Intellectual Property)</h2>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-1"><strong class="font-semibold">Your Content:</strong> You confirm that you own or have the right to use all the content (like your text, photos, and logo) that you give us for your project.</li>
+            <li class="mb-1"><strong class="font-semibold">Our Tools:</strong> We keep ownership of our own methods, processes, and tools we use to do the work.</li>
+            <li class="mb-1"><strong class="font-semibold">Your Project:</strong> Once you've paid us in full, you'll own the finished parts of your project that we created specifically for you (like your new website design or your specific sales strategies).</li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">5. Staying Private (Confidentiality)</h2>
+        <p class="mb-6">
+            Both of us agree to keep any sensitive business information we share with each other private. This includes things like your business plans, customer lists, and financial details.
+        </p>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">6. Important Legal Stuff (Limitation of Liability & Disclaimer)</h2>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-1"><strong class="font-semibold">What We're Not Responsible For:</strong> We're not liable for any indirect damages, like lost profits or data, that might happen from using or not being able to use our services.</li>
+            <li class="mb-1"><strong class="font-semibold">Our Total Responsibility:</strong> If there's ever a problem, our total responsibility to you won't be more than the amount you paid us for the specific service in the last 12 months.</li>
+            <li class="mb-1"><strong class="font-semibold">No Guarantees:</strong> We provide our services "as is." We don't guarantee that our services will always be perfect, error-free, or uninterrupted.</li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">7. Protecting Deal Revive (Indemnification)</h2>
+        <p class="mb-6">
+            You agree to protect Deal Revive (and our team) from any claims, costs, or damages that might come up because of: (a) your use of our services; (b) you breaking these terms; (c) you infringing on someone else's rights (like their copyrights); or (d) any content you provide to us.
+        </p>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">8. Ending Our Agreement (Termination)</h2>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-1"><strong class="font-semibold">By You:</strong> You can end our services by giving us written notice (we'll specify how many days in your agreement). You'll still need to pay for any work we've completed up to that point.</li>
+            <li class="mb-1"><strong class="font-semibold">By Us:</strong> We can end services if you don't follow these terms, don't pay us, or if we just can't work together effectively anymore. We'll let you know in writing.</li>
+            <li class="mb-1"><strong class="font-semibold">After Termination:</strong> Any money you still owe us becomes due immediately. Once paid, we'll transfer ownership of your completed project parts (like your website) to you.</li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">9. How We Handle Disagreements (Governing Law & Dispute Resolution)</h2>
+        <ul class="list-disc ml-6 mb-4">
+            <li class="mb-1">These terms are guided by the laws of the State of [State Name - please specify, e.g., Ohio].</li>
+            <li class="mb-1">If we have a dispute, we'll try to work it out nicely first. If that doesn't work, we'll agree to [choose one: go to mediation, use binding arbitration, or settle it in the courts of [City, State - please specify, e.g., Cincinnati, Ohio]].</li>
+        </ul>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">10. Updates to These Terms</h2>
+        <p class="mb-6">
+            We might update these terms from time to time. If we make big changes, we'll let you know by posting them on our website or by other means. If you continue to use our services after we update the terms, it means you agree to the new terms.
+        </p>
+
+        <h2 class="text-3xl font-semibold text-gray-800 mb-4">11. Contact Us</h2>
+        <p class="mb-4">
+            If you have any questions about these terms, please reach out!
+        </p>
+
+        <p class="font-bold text-lg">Deal Revive</p>
+        <p>Email: <a href="mailto:floyd@dealrevive.com" class="text-blue-600 hover:underline">floyd@dealrevive.com</a></p>
+        <p>Phone: <a href="tel:+19044475432" class="text-blue-600 hover:underline">+1 (904) 447-5432</a></p>
+        <p>Website: <a href="https://www.dealrevive.com" class="text-blue-600 hover:underline" target="_blank">www.dealrevive.com</a></p>
+    </div>
+</body>
+</html>
